@@ -16,3 +16,21 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 });
+
+console.log('yo')
+console.log(location.pathname)
+
+$( document ).ready(function() {
+  console.log( "ready!" );
+  
+  if (location.pathname === '/') {
+    console.log('selected')
+    $( "#homepage-navbar-item" ).addClass( "is-active" );
+  }
+  
+  if (location.pathname === '/schedule.html') {
+    console.log('selected2')
+    $( "#schedule-navbar" ).addClass( "is-active" );
+  }
+  
+});
