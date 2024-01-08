@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 
+a.navbar-item.is-active {
+    color: #900028;
+}
+
+a.navbar-item:hover {
+    color: #5A0414;
+}
