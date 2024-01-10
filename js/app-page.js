@@ -2,13 +2,13 @@
  * Dropdown menu
  */
 
-
-
-
 $( document ).ready(function() {
   
   console.log(location.pathname)
-  $("#navContent").load("header.html", function () {
+  $("#footerContent").load("templates/footer.html", function () {
+  
+  })
+  $("#navContent").load("templates/header.html", function () {
     if (location.pathname === '/') {
       $( "#homepage-navbar-item" ).addClass( "is-active" );
     }

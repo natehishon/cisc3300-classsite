@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a.navbar-item.is-active {
+    color: #900028;
+}
+
+a.navbar-item:hover {
+    color: #5A0414;
+}
+
+
+.read {
+    /*color: hsl(204, 86%, 53%);*/
+    color:  hsl(204, 86%, 53%);
+    font-weight: 500;
+}
+
+.homework {
+    color: hsl(171, 100%, 41%);
+    font-weight: 500;
+}
+
+.due {
+    color: hsl(348, 100%, 61%);
+    font-weight: 500;
+}
