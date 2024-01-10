@@ -14,16 +14,21 @@ a.navbar-item:hover {
 
 .read {
     /*color: hsl(204, 86%, 53%);*/
-    color:  hsl(217, 71%, 53%);
+    /*color:  hsl(217, 71%, 53%);*/
     font-weight: 500;
 }
 
 .homework {
-    color:  hsl(141, 53%, 53%) ;
+    /*color:  hsl(141, 53%, 53%) ;*/
     font-weight: 500;
 }
 
 .due {
     color: hsl(348, 100%, 61%);
+    font-weight: 500;
+}
+
+.link {
+    color:  hsl(217, 71%, 53%);
     font-weight: 500;
 }
