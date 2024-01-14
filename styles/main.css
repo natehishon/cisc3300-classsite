@@ -28,7 +28,29 @@ a.navbar-item:hover {
     font-weight: 500;
 }
 
+/*.link {*/
+/*    color:  hsl(217, 71%, 53%);*/
+/*    font-weight: 500;*/
+/*}*/
+
+
 .link {
-    color:  hsl(217, 71%, 53%);
+    color: #900028;
+}
+
+.link:hover {
+    color: #5A0414;
+}
+
+h4 {
+    color: #5A0414;
+    font-size: 2rem;
+    margin: 15px 0;
+    font-weight: 500;
+}
+
+
+h5 {
+    color: #5A0414;
     font-weight: 500;
 }
